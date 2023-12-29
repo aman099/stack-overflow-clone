@@ -90,7 +90,7 @@ function QuestionsDetails() {
   const User = useSelector((state) => state.currentUserReducer);
   const dispatch = useDispatch();
   const location = useLocation();
-  const url = "http://localhost:3000";
+  const url = "https://stack-overflow-101.netlify.app";
 
   const handlePostAns = (e, answerLength) => {
     e.preventDefault();
