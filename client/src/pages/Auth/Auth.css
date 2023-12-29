@@ -23,6 +23,7 @@
   align-items: center;
 }
 .auth-container-2 form {
+  margin-top: 80px;
   width: 100%;
   padding: 20px;
   background-color: white;
